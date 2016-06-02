@@ -1,4 +1,4 @@
 FROM yookuda/bioperl
 WORKDIR /scripts
-RUN wget https://github.com/code-lab-0/migap_scripts/raw/master/fa4tr.pl
+RUN wget https://raw.githubusercontent.com/code-lab-0/migap_scripts/master/fa4tr.pl
 
