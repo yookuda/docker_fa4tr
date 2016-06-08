@@ -1,5 +1,5 @@
 # fa4tr.pl
-merge.plで同定されたORFに対してCOG DB, RefSeq DBでBLAST検索を行った結果から、ヒットしなか>ったORFを抽出するスクリプト。実行にBioPerlが必要であるため、base imageとしてyookuda/bioperlを使用する。
+merge.plで生成されたORFのmultiple fasta fileに対してCOG DB, RefSeq DBでBLAST検索を行った結果から、ヒットしなかったORFのmultiple fasta fileを出力するスクリプト。実行にBioPerlが必要であるため、base imageとしてyookuda/bioperlを使用する。
 
 ## Usage
 ```usage
